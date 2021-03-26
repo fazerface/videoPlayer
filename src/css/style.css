@@ -1,0 +1,87 @@
+@import './fonts.css';
+
+body{
+  font-family: 'Helvetica';
+  width: 100%; height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: rgb(100, 33, 33);
+  width: 100%; height: 100vh;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; height: auto;
+}
+
+.card{
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 800px; height: auto;
+}
+
+.button a{
+  text-decoration: none;
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 30px;
+  border: 1px solid #028548;
+  background: none;
+  color: #028548;
+  font-size: 18px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button a:focus{
+  outline: none;
+}
+
+.button a:hover{
+  box-shadow: 0 0 15px -5px #000;
+}
+
+input[type="file"]{
+  display:none;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.video{
+  margin: 0 auto;
+  width: 500px; height: 350px;
+}
+
+.video video{
+  width: 100%; height: 100%;
+}
+
+.video-track {
+  width: 100%;
+}
+
+.timeline {
+  width: 100%;
+}
+
+.volume {
+  width: 100px;
+}
